@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <bytecodeTargetLevel>
+      <module name="pl.speedlog.example.two-app-in-wildfly-service1" target="11" />
+      <module name="pl.speedlog.example.two-app-in-wildfly-service1.main" target="11" />
+      <module name="pl.speedlog.example.two-app-in-wildfly-service1.test" target="11" />
+      <module name="two-app-in-wildfly-service1" target="11" />
+      <module name="two-app-in-wildfly-service1.main" target="11" />
+      <module name="two-app-in-wildfly-service1.test" target="11" />
+      <module name="two-app-in-wildfly-service2" target="11" />
+      <module name="two-app-in-wildfly-service2.main" target="11" />
+      <module name="two-app-in-wildfly-service2.test" target="11" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

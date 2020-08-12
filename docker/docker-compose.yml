@@ -1,0 +1,12 @@
+version: '3'
+services:
+  wildfly:
+    build: ./wildfly
+    image: speedlog-wildfly:1.0
+    container_name: "speedlog-wildfly"
+    ports:
+      - 8080:8080
+      - 9990:9990
+    volumes:
+      - "../service1/build/libs/service1-0.0.1-SNAPSHOT.war:/opt/jboss/wildfly/standalone/deployments/service1-0.0.1-SNAPSHOT.war"
+      - "../service2/build/libs/service2-0.0.1-SNAPSHOT.war:/opt/jboss/wildfly/standalone/deployments/service2-0.0.1-SNAPSHOT.war"
