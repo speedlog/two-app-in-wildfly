@@ -3,7 +3,7 @@
 This is example how to deploy two springboot application in Wildfly.
 Each application has its own configuration that is load from file in Wildfy module.
 
-See more: https://mariusz.wyszomierski.pl/en/...soon blog post...
+See more: https://mariusz.wyszomierski.pl/en/deploy-two-springboot-applications-in-wildfly-with-external-properties/
 
 _Warning: this code is only example - do not use it on production!_ 
 
